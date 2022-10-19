@@ -1,0 +1,13 @@
+import math as mt
+
+#EXTERN DATA INSERTS
+a = int(input("a: "))
+b = int(input("b: "))
+x = float(input("x: "))
+y = float(input("y: "))
+
+#EXPRESSION COMPUTING
+expressao = a + b ** x - mt.sqrt(b) + (a + b)/(x - y)
+
+#RETURN
+print("expressão: {:.2f}".format(expressao))

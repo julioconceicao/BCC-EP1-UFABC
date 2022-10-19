@@ -1,0 +1,10 @@
+#EXTERN DATA INSERT
+C = int(input("How cold is today? :3 "))
+
+# F => FAHRENHEIT CONVERT / K => KELVIN CONVERT 
+F = C * (9/5) + 32
+K = C + 273.15
+
+#RETURN
+print("Fahrenheit convert: {:.0F}".format(F))
+print("Kelvin convert: {:.0F}".format(K))
