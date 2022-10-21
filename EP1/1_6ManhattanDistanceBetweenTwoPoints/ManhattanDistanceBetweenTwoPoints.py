@@ -3,5 +3,4 @@ y1 = int(input("y1: "))
 x2 = int(input("y2: "))
 y2 = int(input("y2: "))
 
-p1 = (x1, y1)
-p2 = (x2, y2)
+print("{:.4f}".format(abs(x1 - x2) + abs(y1 - y2)))
